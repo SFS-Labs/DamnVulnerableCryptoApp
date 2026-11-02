@@ -2,13 +2,8 @@
 
 name: Check build and run test 
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-
+'on':
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
