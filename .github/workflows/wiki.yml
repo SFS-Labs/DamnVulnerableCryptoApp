@@ -2,10 +2,8 @@
 # https://github.com/Decathlon/wiki-page-creator-action
 name: Wiki Update
 
-on:
-  push:
-    branches: [ master ]
-
+'on':
+  workflow_dispatch:
 jobs:
   wiki:
     runs-on: ubuntu-latest
